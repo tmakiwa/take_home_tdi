@@ -17,7 +17,7 @@ txn_integration/
 │   ├── currency.py         # Currency conversion (Frankfurter API)
 │   └── storage.py          # Save outputs to CSV + SQLite
 ├── tests/
-│   └── test_transform.py   # Sample pytest tests
+│   └── test_etl.py   # Sample pytest tests
 ├── requirements.txt        # Python dependencies
 └── README.md               # Documentation
 ```
@@ -65,7 +65,7 @@ txn_integration/
    python main.py --input-dir data --out-dir out --default-date 2025-01-01
    ```
 
-7. Run tests:
+7. Run tests: This project uses **pytest** for unit tests.
    ```bash
    pytest -q
    ```
