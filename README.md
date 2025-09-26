@@ -5,7 +5,7 @@ The goal is to ingest transaction data from multiple sources (**CSV, JSON, XML**
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 txn_integration/
@@ -24,7 +24,7 @@ txn_integration/
 
 ---
 
-## 🚀 Setup & Run
+## Setup & Run
 
 1. Clone the repo or unzip the project:
 
@@ -72,7 +72,7 @@ txn_integration/
 
 ---
 
-## 📊 Target Schema
+## Target Schema
 
 | Column            | Description                                        |
 | ----------------- | -------------------------------------------------- |
@@ -88,7 +88,7 @@ txn_integration/
 
 ---
 
-## 📂 Outputs
+## Outputs
 
 - `clean_transactions.csv` → standardized, validated dataset (with `amount_usd`)
 - `errors.csv` → invalid rows (with reasons)
@@ -97,7 +97,7 @@ txn_integration/
 
 ---
 
-## 🔑 Key Features
+## Key Features
 
 - **Ingestion** → CSV (pandas), JSON (json), XML (ElementTree)
 - **Normalization** → consistent schema for all sources
@@ -110,7 +110,7 @@ txn_integration/
 
 ---
 
-## 🧩 Assumptions & Design Decisions
+## Assumptions & Design Decisions
 
 - Schema-first design keeps the pipeline simple and predictable.
 - Invalid rows are logged to `errors.csv` instead of breaking the run.
@@ -121,7 +121,7 @@ txn_integration/
 
 ---
 
-## 🔄 ETL Flow
+## ETL Flow
 
 ```
 CSV / JSON / XML
@@ -143,6 +143,6 @@ CSV / JSON / XML
 
 ---
 
-## ⚠️ Disclaimer
+## Disclaimer
 
 This solution is for **demonstration purposes only**. Deduction rates, suspicious thresholds, and some assumptions are illustrative. In production, these would be refined based on business rules, compliance, and performance requirements.
