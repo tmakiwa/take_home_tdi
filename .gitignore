@@ -12,3 +12,6 @@ out/
 
 # FX cache
 .fx_cache.json
+
+# macOS system files
+.DS_Store
