@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PartnerBatch generated="2025-08-31T06:30:00Z" partner="ACME-PARTNER">
+  <Transaction id="PT-3001">
+    <Customer id="90001"/>
+    <Amount currency="GBP">15.75</Amount>
+    <When>2025-08-31T06:25:00Z</When>
+    <Payment method="bank_transfer"/>
+  </Transaction>
+  <Transaction id="PT-3002">
+    <Customer id="90002"/>
+    <Amount currency="ZAR">100</Amount>
+    <When>2025-08-31 06:45:00</When>
+    <Payment method="card" last4="9999"/>
+  </Transaction>
+  <Transaction id="PT-3003">
+    <Customer id=""/>
+    <Amount currency="USD">0</Amount>
+    <When>INVALID_DATE</When>
+    <Payment method="card"/>
+  </Transaction>
+</PartnerBatch>

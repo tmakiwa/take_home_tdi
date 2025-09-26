@@ -1,0 +1,14 @@
+# Virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Output files
+out/
+*.sqlite
+*.csv
+
+# FX cache
+.fx_cache.json

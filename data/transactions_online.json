@@ -1,0 +1,60 @@
+[
+  {
+    "id": "ON-2001",
+    "channel": "online",
+    "customer": {
+      "id": "C-9001",
+      "email": "alice@example.com"
+    },
+    "total": {
+      "amount": 12.49,
+      "currency": "EUR"
+    },
+    "occurred_at": "2025-08-31T07:14:03Z",
+    "payment": {
+      "method": "card",
+      "last4": "4242"
+    },
+    "meta": {
+      "coupon": "SUMMER25"
+    }
+  },
+  {
+    "id": "ON-2002",
+    "channel": "online",
+    "customer": {
+      "id": null,
+      "email": "missingid@example.com"
+    },
+    "total": {
+      "amount": 250.0,
+      "currency": "ZAR"
+    },
+    "occurred_at": "2025-08-31T08:44:22Z",
+    "payment": {
+      "method": "wallet"
+    },
+    "meta": {
+      "notes": "guest checkout"
+    }
+  },
+  {
+    "id": "ON-2003",
+    "channel": "online",
+    "customer": {
+      "id": "C-9003"
+    },
+    "total": {
+      "amount": -1.0,
+      "currency": "USD"
+    },
+    "occurred_at": "2025-08-31T09:00:00Z",
+    "payment": {
+      "method": "card",
+      "last4": "0000"
+    },
+    "meta": {
+      "risk_score": 0.97
+    }
+  }
+]
